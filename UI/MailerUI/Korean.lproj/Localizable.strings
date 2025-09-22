@@ -3,13 +3,13 @@
 /* Icon's label */
 "Create"      = "생성";
 "Empty Trash" = "휴지통 비우기";
-"Empty Junk Folder" = "정크 폴더 비우기";
+"Empty Junk Folder" = "임시메일 폴더 비우기";
 "Delete"      = "삭제";
-"Expunge"     = "말소";
+"Expunge"     = "완전삭제";
 "Forward"     = "전달";
 "Get Mail"    = "메일 가져오기";
-"Junk"        = "정크";
-"Not junk"    = "정크 아님";
+"Junk"        = "스팸";
+"Not junk"    = "스팸 아님";
 "Reply"       = "답장";
 "Reply All"   = "전체답장";
 "Print"       = "인쇄";
@@ -79,7 +79,7 @@
 "Folder compacted" = "폴더 압축";
 
 /* Empty Junk Folder success message */
-"Junk folder emptied" = "정크 폴더 비우기";
+"Junk folder emptied" = "스팸 폴더 비우기";
 
 /* Empty Trash success message */
 "Trash emptied" = "휴지통 비워짐";
@@ -99,7 +99,7 @@
 "Erase mails from this folder" = "이 폴더에서 메일 지우기";
 "Expunge this folder" = "이 폴더 삭제";
 "Export This Folder" = "이 폴더 내보내기";
-"Modify the acl of this folder" = "이 폴더의 acl을 수정 합니다.";
+"Modify the acl of this folder" = "이 폴더의 ACL을 수정 합니다.";
 "Saved Messages.zip" = "Messages.zip으로 저장됨";
 "Update" = "업데이트";
 "Cancel" = "취소";
@@ -124,7 +124,7 @@
 "cc"            = "참조";
 "bcc"           = "숨은참조";
 "Add a recipient" = "받는 사람 추가";
-"Edit Draft..." = "초안 편집...";
+"Edit Draft..." = "임시보관 편집...";
 "Load Images" = "이미지 불러오기";
 "Return Receipt" = "받은사람 회신";
 "Choose which identity to send this message from" = "이 메시지를 보낼 ID 선택";
@@ -203,8 +203,8 @@
 "SentFolderName"   = "보냄";
 "TrashFolderName"  = "휴지통";
 "InboxFolderName"  = "받은 편지함";
-"DraftsFolderName" = "초안";
-"JunkFolderName" = "정크";
+"DraftsFolderName" = "임시보관함";
+"JunkFolderName" = "스팸";
 "TemplatesFolderName" = "템플릿";
 "SieveFolderName"  = "필터";
 "Folders"          = "폴더"; /* title line */
@@ -241,9 +241,9 @@
 
 /* Use This Folder menu */
 "Sent Messages" = "메시지 보내기";
-"Drafts" = "초안";
+"Drafts" = "임시보관";
 "Deleted Messages" = "삭제된 메시지";
-"Junk Messages" = "정크 메시지";
+"Junk Messages" = "스팸 메시지";
 
 /* Message list popup menu */
 "Open Message In New Window" = "새 창에서 메시지 열기";
@@ -280,8 +280,8 @@
 "Print..." = "인쇄";
 "Delete Message" = "메시지 삭제";
 "Delete Selected Messages" = "선택한 메시지 삭제";
-"Mark the selected messages as junk" = "선택한 메시지를 정크 메시지로 표시";
-"Mark the selected messages as not junk" = "선택한 메시지를 정크 메일이 아닌 것으로 표시";
+"Mark the selected messages as junk" = "선택한 메시지를 스팸 메시지로 표시";
+"Mark the selected messages as not junk" = "선택한 메시지를 스팸 메일이 아닌 것으로 표시";
 
 /* Text appended to the recipients list when there are too many recipients */
 "and %{0} more..." = "및 %{0} 더보기...";
@@ -338,9 +338,9 @@
 "Thread As Read" = "스레드를 읽음으로 표시";
 "As Read By Date..." = "읽은 순서대로...";
 "All Read" = "모두 읽기";
-"As Junk" = "정크로 설정";
-"As Not Junk" = "정크 아님으로 설정";
-"Run Junk Mail Controls" = "정크 메일 컨트롤 실행";
+"As Junk" = "스팸으로 설정";
+"As Not Junk" = "스팸 아님으로 설정";
+"Run Junk Mail Controls" = "스팸 메일 컨트롤 실행";
 "Search messages in" = "다음에서 메시지 검색";
 "Search" = "검색";
 "Search subfolders" = "하위 폴더 검색";
@@ -407,17 +407,17 @@
 "error_missingsubject" = "메시지에 제목이 없습니다. 정말 보내시겠습니까?";
 "error_missingrecipients" = "받는 사람을 한 명 이상 지정하세요.";
 "Send Anyway" = "아무튼 보내기";
-"Error while saving the draft" = "초안 저장 중 오류 발생";
+"Error while saving the draft" = "임시보관 저장 중 오류 발생";
 
 /* Error when emptying trash */
 "Unable to empty the trash folder." = "휴지통 폴더를 비울 수 없습니다.";
 
 /* Error when emptying junk folder */
-"Unable to empty the junk folder." = "정크 폴더를 비울 수 없습니다.";
+"Unable to empty the junk folder." = "스팸 폴더를 비울 수 없습니다.";
 
 /* Error when uploading a file attachment */
 "Error while uploading the file \"%{0}\":" = "\"%{0}\" 파일을 업로드하는 동안 오류가 발생했습니다.";
-"There is an active file upload. Closing the window will interrupt it." = "활성 파일 업로드가 진행 중입니다. 창을 닫으면 업로드가 중단됩니다.";
+"There is an active file upload. Closing the window will interrupt it." = "파일 업로드가 진행 중입니다. 창을 닫으면 업로드가 중단됩니다.";
 "Message is too big" = "메시지가 너무 큽니다.";
 
 /* Appears while sending the message */
@@ -447,7 +447,7 @@
 "Rename" = "이름 변경";
 "Compact" = "압축";
 "Export" = "내보내기";
-"Set as Drafts" = "초안으로 설정";
+"Set as Drafts" = "임시보관으로 설정";
 "Set as Sent" = "보내기로 설정";
 "Set as Trash" = "휴지통으로 설정";
 
@@ -455,7 +455,7 @@
 "Set as Templates" = "템플릿으로 설정";
 
 /* Set the folder as the one holding Junk mails */
-"Set as Junk" = "정크로 설정";
+"Set as Junk" = "스팸으로 설정";
 
 "Sort" = "정렬";
 "Order Received" = "수신된 순서";
@@ -468,7 +468,7 @@
 "Mark as Unread" = "읽지 않음으로 표시";
 "Mark as Read" = "읽음으로 표시";
 "Closing Window ..." = "윈도우 닫는 중";
-"Tried to send too many mails. Please wait." = "메일을 너무 많이 보내려고 했습니다. 잠시만 기다려주세요.";
+"Tried to send too many mails. Please wait." = "많은 메일을 보내고 있습니다. 잠시만 기다려주세요.";
 "View Mail" = "메일 보기";
 "This message contains external images." = "이 메시지에는 외부 이미지가 포함되어 있습니다.";
 "Expanded" = "확장";
@@ -480,8 +480,8 @@
 
 "More Options" = "더 많은 옵션";
 
-"New draft" = "새 초안";
-"Create new draft with this template" = "이 템플릿으로 새 초안 만들기";
+"New draft" = "새 임시보관";
+"Create new draft with this template" = "이 템플릿으로 새 임시보관 만들기";
 
 /* Advanced search */
 "Enter Subject" = "제목 입력";
